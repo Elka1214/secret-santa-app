@@ -1,0 +1,36 @@
+/* LandingPage.css */
+.landing-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.landing-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.landing-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ff6347; /* Use your desired color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 10px; /* Add spacing between buttons */
+}
+
+.cta-button:hover {
+  background-color: #e74c3c; /* Darker shade on hover */
+}
